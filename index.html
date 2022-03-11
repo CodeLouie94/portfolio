@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Llewil Montilla</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main-container">
         <div class="home">
@@ -15,14 +17,16 @@
                 <div>
                     <img src="images/profilepic/img1.jpg" id="ppic" alt="img1">
                     <div class="arrowcontainer">
-                        <img onclick="previousImage()" id="arrowLeft" class="arrow" src="images/redArrow.png" alt="arrowLeft">
+                        <img onclick="previousImage()" id="arrowLeft" class="arrow" src="images/redArrow.png"
+                            alt="arrowLeft">
                         <img onclick="nextImage()" class="arrow" src="images/redArrow.png" alt="arrowRight">
                     </div>
                 </div>
                 <div class="about-Louie">
                     <p>Hello! My name is Llewil Aeneid Montilla. I go by Louie.</p>
-                    <p>I am a new Software Developer fresh in the tech industry. I graduated in Coding Dojo March of 2022 and am proficient in Web Fundamentals, 
-                        Python, MERN and Java. 
+                    <p>I am a new Software Developer fresh in the tech industry. I graduated in Coding Dojo March of
+                        2022 and am proficient in Web Fundamentals,
+                        Python, MERN and Java.
                     </p>
                 </div>
             </div>
@@ -33,7 +37,7 @@
                 <img class="skill-icon" src="images/language1.png" alt="lang1">
                 <img class="skill-icon" src="images/language2.png" alt="lang2">
                 <img class="skill-icon" src="images/lang3.png" alt="lang3">
-                <img class = "skill-icon" src="images/language4.png" alt="lang4">
+                <img class="skill-icon" src="images/language4.png" alt="lang4">
             </div>
             <div class="otherTools">
                 <p>Other tools used:</p>
@@ -46,22 +50,40 @@
         </div>
         <div class="projects">
             <h2>Projects</h2>
-            <img class="constructionIcon" src="images/underconstruction.png" alt="underconstruction">
+            <div>
+                <h3>New Game + project using MERN</h3>
+                <h3><a href="https://github.com/CodeLouie94/MERN-Deployment">Github link</a></h3>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/qW5KDaRZF-s">
+                </iframe>
+            </div>
+            <div>
+                <h3>Animon project using Java, Spring, MySql</h3>
+                <h3><a href="https://github.com/CodeLouie94/animon">Github link</a></h3>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/xSc-p1bC0Gg">
+                </iframe>
+            </div>
         </div>
         <div class="contact-me">
             <h2>Contact Me</h2>
             <div class=contact-icons>
-                <a href="https://www.linkedin.com/in/llewil-montilla-25b56b164/"><img class="contact-img" src="images/contact/linkedin.png" alt="linkedin"></a>
-                <a href="https://github.com/CodeLouie94"><img class="contact-img" src="images/contact/github.png" alt="github"></a>
+                <a href="https://www.linkedin.com/in/llewil-montilla-25b56b164/"><img class="contact-img"
+                        src="images/contact/linkedin.png" alt="linkedin"></a>
+                <a href="https://github.com/CodeLouie94"><img class="contact-img" src="images/contact/github.png"
+                        alt="github"></a>
             </div>
         </div>
     </div>
     <ul class="navbar">
-        <li><button onclick="scrollHome()"><img id="nav-home" class="nav-icon bot-bor gray-icon" src="images/home.png" alt="home"></button></li>
-        <li><button onclick="scrollSkills()"><img id="nav-skills" class="nav-icon bot-bor" src="images/skills.png" alt="skills"></button></li>
-        <li><button onclick="scrollProjects()"><img id="nav-projects" class="nav-icon bot-bor gray-icon" src="images/projects.png" alt="projects"></button></li>
-        <li><button onclick="scrollContact()"><img id="nav-contacts" class="nav-icon" src="images/contacts.png" alt="contact"></button></li>
+        <li><button onclick="scrollHome()"><img id="nav-home" class="nav-icon bot-bor gray-icon" src="images/home.png"
+                    alt="home"></button></li>
+        <li><button onclick="scrollSkills()"><img id="nav-skills" class="nav-icon bot-bor" src="images/skills.png"
+                    alt="skills"></button></li>
+        <li><button onclick="scrollProjects()"><img id="nav-projects" class="nav-icon bot-bor gray-icon"
+                    src="images/projects.png" alt="projects"></button></li>
+        <li><button onclick="scrollContact()"><img id="nav-contacts" class="nav-icon" src="images/contacts.png"
+                    alt="contact"></button></li>
     </ul>
     <script src="script.js"></script>
 </body>
+
 </html>

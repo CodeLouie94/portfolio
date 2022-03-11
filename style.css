@@ -196,3 +196,7 @@ body{
 #about-me-title{
     color: white;
 }
+
+.projects div{
+    margin-bottom: 50px;
+}
