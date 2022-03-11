@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background: url(https://wallpaperaccess.com/full/336786.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 5px solid black;
+    border-radius: 2%; */
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    width: fit-content;
+    /* border: 5px solid black; */
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    gap: 10px;
+}
+
+.nav-icon{
+    width: 100px;
+    height: auto;
+    padding: 20px 5px;
+}
+
+
+#ppic{
+    width: 300px;
+    height: 450px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20%;
+}
+
+.home{
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 4%;
+    margin: 30px;
+}
+
+.home h2{
+    text-align: center;
+    font-size: 30pt;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    min-height: 500px;
+}
+
+.arrowcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#arrowLeft{
+    transform: rotatey(180deg);
+}
+
+.arrow{
+    width: 40px;
+    height: auto;
+
+}
+
+.about-Louie{
+    font-size: 24pt;
+    color: black;
+}
+
+.skills{
+    background-color: rgba(111, 189, 114, 0.733);
+    border-radius: 10%;
+    padding: 100px;
+    margin: 30px;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 30pt;
+}
+
+.skill-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-icon{
+    width: 250px;
+    height: auto;
+}
+
+.otherTools{
+    padding-top: 40px;
+    font-size: 20pt;
+}
+
+.otherToolsList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects{
+    background-color: rgba(100, 148, 237, 0.705);
+    border-radius: 4%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.projects h2{
+    font-size: 24pt;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.constructionIcon{
+    width: 500px;
+    height: auto;
+}
+
+.contact-me{
+    background-color: rgba(139, 24, 24, 0.774);
+    padding: 100px;
+    border-radius: 4%;
+    margin: 30px;
+
+}
+
+.contact-me h2{
+    font-size: 30pt;
+    padding-bottom: 30px;
+}
+
+.contact-img{
+    width: 150px;
+    height: auto;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* nav bar colors */
+.navbar button{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 8%;
+    box-shadow: 10px 8px  black;
+}
+
+#nav-home{
+    background-color: rgba(251, 250, 251, 0.712) ;
+    border-radius: 8%;
+}
+
+#nav-skills{
+    background-color: rgba(111, 189, 114, 0.733);
+    border-radius: 8%;
+}
+
+#nav-projects{
+    background-color: rgba(100, 148, 237, 0.705);
+    border-radius: 8%;
+}
+
+#nav-contacts{
+    background-color: rgba(139, 24, 24, 0.774);
+    border-radius: 8%;
+}
+
+.about-Louie{
+    color: white;
+}
+
+#about-me-title{
+    color: white;
+}
